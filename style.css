@@ -85,7 +85,7 @@ body{
 }
 
 .programacao_img2{
-    width: 30%;
+    width: 25%;
     border-radius: 20px;
 }
 
@@ -216,7 +216,7 @@ body{
 .bloco3{
     background-color: #FDB92E;
     color: #fff;
-     font-size: 1.300rem;
+    font-size: 1.300rem;
     font-family: "Krona One" , sans-serif;
     text-align: center;
     white-space: pre-line;
@@ -228,25 +228,84 @@ body{
 }
 
 .depoimentos{
-     display: flex;
+    background-color: #FDB92E;
+    color: #fff;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 5% 5%;
-    
+    justify-content:space-around;
+
 }
 
-.video{
-    width: 200px;
-    border-radius: 25px;
+.video1:hover{
+ transform: scale(1.1);
 }
 
-.video:hover{
+.video1{
+    transition:.5s;
+}
+
+.video2:hover{
+transform: scale(1.1);
+}
+
+.video2{
+    transition:.5s;
+}
+
+.video3:hover{
     transform: scale(1.1);
 }
 
-.video{
+.video3{
     transition:.5s;
 }
+
+.video4{
+    transition: .5s;
+}
+
+.video4:hover{
+    transform: scale(1.1);
+}
+
+.video5{
+    transition: .5s;
+}
+
+.video5:hover{
+    transform: scale(1.1);
+}
+
+.video1{
+  transform: rotate(-3deg);
+   width: 200px;
+    border-radius: 25px;
+}
+
+.video2{
+  transform: rotate(-3deg);
+  width: 200px;
+    border-radius: 25px;
+}
+
+.video3{
+  transform: rotate(3deg);
+  width: 200px;
+   border-radius: 25px;
+}
+
+.video4{
+  transform: rotate(4deg);
+  width: 200px;
+  border-radius: 25px;
+}
+
+.video5{
+  transform: rotate(0);
+  width: 200px;
+  border-radius: 25px;
+}
+
 
 .aluno{
     margin-top: 10%;
@@ -257,7 +316,7 @@ body{
 }
 
 .apresentacao2{
-    padding: 1% 10%;
+    padding: 7% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -266,7 +325,7 @@ body{
 .apresentacao3{
     background-color: #1557A0;
     color: #fff;
-    padding: 07% 10%;
+    padding: 3% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
